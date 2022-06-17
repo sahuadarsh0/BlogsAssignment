@@ -13,6 +13,7 @@ import technited.minds.assignment.BuildConfig
 import technited.minds.assignment.data.remote.PostsAPI
 import technited.minds.assignment.data.remote.RemoteDataSource
 import technited.minds.assignment.utils.Constants
+import technited.minds.assignment.utils.Constants.TAG
 import javax.inject.Singleton
 
 @InstallIn(SingletonComponent::class)
@@ -26,7 +27,7 @@ object NetworkModule {
     @Provides
     @Singleton
     fun provideOkHttpClient() = if (BuildConfig.DEBUG) {
-        val loggingInterceptor = HttpLoggingInterceptor { s: String? -> Log.d("asa", s!!) }
+        val loggingInterceptor = HttpLoggingInterceptor { s: String? -> Log.d(TAG, s!!) }
         loggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY)
         OkHttpClient.Builder()
             .addInterceptor(loggingInterceptor)
