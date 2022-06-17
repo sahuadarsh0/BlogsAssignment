@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Important_Docs/Projects/Backup/BlogsAssignment/app/src/main/res/drawable/bg_edit_text.xml" value="0.188" />
         <entry key="..\:/Important_Docs/Projects/Backup/BlogsAssignment/app/src/main/res/drawable/ic_launcher_background.xml" value="0.188" />
         <entry key="..\:/Important_Docs/Projects/Backup/BlogsAssignment/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.188" />
+        <entry key="..\:/Important_Docs/Projects/Backup/BlogsAssignment/app/src/main/res/drawable/ic_search.xml" value="0.188" />
         <entry key="..\:/Important_Docs/Projects/Backup/BlogsAssignment/app/src/main/res/drawable/splash.xml" value="0.188" />
+        <entry key="..\:/Important_Docs/Projects/Backup/BlogsAssignment/app/src/main/res/layout/activity_main.xml" value="0.296195652173913" />
+        <entry key="..\:/Important_Docs/Projects/Backup/BlogsAssignment/app/src/main/res/layout/item_list_posts.xml" value="0.30245746691871456" />
       </map>
     </option>
   </component>
